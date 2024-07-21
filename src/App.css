@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  border: 1px solid black;
+
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+}
+
+.shopNow{
+  color: aliceblue;
+
+}
+
+.navBar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  display: inline;
+  margin: 10px;
+  color: black;
+}
+
+.searchBar{
+  height: 30px;
+  width: 200px;
+}
