@@ -32,6 +32,7 @@ function App() {
         <ul>
           <li></li>
           <li></li>
+          <li>New</li>
         </ul>
       </footer>
     </>
